@@ -1,0 +1,93 @@
+@import url("https://api.fontshare.com/v2/css?f[]=general-sans@1&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: 'General Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+h4 {
+  padding: 0;
+  margin: 0;
+}
+
+.black-nav {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 56px;
+  padding: 0 18px;
+  background-color: #000;
+}
+
+.black-nav span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.container {
+  padding-top: 56px;
+}
+
+.btn-wrap {
+  padding: 18px 18px 0;
+}
+
+.btn-wrap button {
+  padding: 6px 24px;
+  border: 2px solid #000;
+  font-size: 18px;
+  font-weight: 500;
+  background: none;
+  cursor: pointer;
+}
+
+.btn-wrap button:hover {
+  background: #000;
+  color: #fff;
+}
+
+.list li {
+  padding: 20px 18px;
+  border-bottom: 1px solid #ddd;
+}
+
+.list .title_area {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.list .title_area h4 {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.list .title_area span {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  color: orange;
+}
+
+.modal {
+  background: #fafafa;
+  padding: 18px;
+}
+
+.modal h4 {
+  font-weight: normal;
+}
